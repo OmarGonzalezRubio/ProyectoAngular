@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+<html lang="es" x-ng-app="miPrimeraWebApp"> 
+<head> 
+<meta charset="utf-8">
+<title>Testing the tools</title> 
+<!-- build:css styles/main.min.css -->
+<!-- endbuild --> 
+</head>
+ <body ng-controller="controladorBasico">
+
+<div ng-repeat="perrito in superdogs">
+<img src="image/{{perrito.foto}}">
+<h2>Mi nombre es: {{perrito.nombre}}</h2>
+<h3>Mi edad es: {{perrito.edad}}</h3>
+</div>
+
+ <script src="scripts/angular.min.js"></script>
+ <!-- build:js scripts/main.min.js-->
+ <script src="scripts/myapp.js"></script>
+  <!-- endbuild -->
+   </body>
+    </html>
+
+

@@ -1,0 +1,24 @@
+{
+  "name": "primerproyecto",
+  "description": "hola mundo primer proyecto",
+  "main": "",
+  "keywords": [
+    "curso",
+    "angularjs"
+  ],
+  "authors": [
+    "omar"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
+}
